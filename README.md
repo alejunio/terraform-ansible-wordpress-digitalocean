@@ -12,7 +12,7 @@ O objetivo dessa stack é automatizar tudo, desde a criação do servidor, confi
 
 A imagem abaixo representa como está arquitetada esta Stack de automação.
 
-![alt text](https://raw.githubusercontent.com/alejunio/ansible-wordpress/main/img/ansible-wordpress.png)
+![alt text]()
 
 
 ## Requisitos
@@ -29,7 +29,7 @@ Para executar a Stack você vai precisar executar os passos abaixo. "Desconsider
 #### 1) Download do pacote Terraform
 Faça o download do pacote referente ao sistema operacional que você utiliza.
 * Vídeo Instalação Windows/Linux: https://www.youtube.com/watch?v=bSrV1Dr8py8
-* https://www.terraform.io/downloads.html
+* Download: https://www.terraform.io/downloads.html
 
 
 #### 2) Download da Stack
