@@ -50,8 +50,9 @@ Você deve realizar configuracoes nos arquivos abaixo:
 
 No campo de chave SSH, configure o caminho da sua chave SSH e/ou o nome da chave que você configurou. Recomendo inserir a chave no diretório (SSH).
 
+
 * variable.tf
-<br>
+
 No arquivo variable.tf você vai configurar a chave de API da DigitalOcean, e o domínio do site que você quer configurar.
 
 Tutorial criação API Key DigitalOcean: https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token
