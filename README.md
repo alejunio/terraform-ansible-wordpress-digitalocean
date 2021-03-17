@@ -47,7 +47,7 @@ Após realizar o download do repositório, recomendo utilizar algum editor como 
 Você deve realizar configuracoes nos arquivos abaixo:
 
 * main.tf
-<br>
+
 No campo de chave SSH, configure o caminho da sua chave SSH e/ou o nome da chave que você configurou. Recomendo inserir a chave no diretório (SSH).
 
 * variable.tf
