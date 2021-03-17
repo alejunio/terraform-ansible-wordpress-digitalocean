@@ -107,3 +107,30 @@ O comando abaixo irá realizar o deploy da infraestrutura, eu estimo que demore 
 
 Após finalizar o deploy, você verá uma mensagem similar/igual a essa abaixo:
 ![alt text]()
+
+
+## Atenção
+A Stack está funcional, mas ainda está em desenvolvimento. Ideias e planos para a Stack:
+
+* Ansible
+ - [x] Nginx [ 1.14 ]
+ - [x] PHP [ 7.2 ]
+ - [x] MySQL [ 5.76 ]
+ - [x] SSL Certbot Let's Encrypt
+ - [ ] Seletor PHP
+ - [ ] Seletor MySQL
+ - [ ] Ioncube
+ - [ ] Composer
+ - [ ] Ferramentas de Segurança
+ - [ ] Ferramenta para coleta de Logs 
+ - [ ] Ferramenta para monitoramento do Servidor   
+ - [ ] Backups remoto 
+ - [ ] Criação de contas FTP
+ - [ ] Secrets Ansible Vault
+
+* Terraform
+ - [ ] Variaveis compartilhaveis com Ansible e vice versa
+ - [ ] Seleção de Servidores
+ - [ ] Seleção de Regiões
+ - [ ] Load Balancing
+ - [ ] Secrets Vault
