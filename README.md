@@ -42,18 +42,18 @@ Você pode realizar o download da Stack através do link:
 
 Após realizar o download do repositório, recomendo utilizar algum editor como o Notepad++, VSCode ou algum de sua preferência para configurar a Stack.
 
-### Configuracoes Infraestrutura
+### Organizando e Configurando Terraform
 
 Você deve realizar configuracoes nos arquivos abaixo:
 
-* main.tf
+- main.tf
 
 No campo de chave SSH, configure o caminho da sua chave SSH e/ou o nome da chave que você configurou. Recomendo inserir a chave no diretório (SSH).
 
 
-* variable.tf
+- variable.tf
 
 No arquivo variable.tf você vai configurar a chave de API da DigitalOcean, e o domínio do site que você quer configurar.
-
 Tutorial criação API Key DigitalOcean: https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token
+
 
