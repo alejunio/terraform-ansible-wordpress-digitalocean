@@ -83,3 +83,27 @@ Edite o arquivo de variaveis:
  email: 
 ```
 
+## Deploy Stack
+
+Após ter ajustado todas as configurações necessárias para o funcionamento da stack e ter configurado o DNS do seu domínio apontando para a DigitalOcean, você poderá executar a stack para criar o ambiente.
+
+Para executar a stack, abra o terminal (cmd, shell, etc) e navegue até a pasta do projeto que você fez o download. Exemplo abaixo:
+![alt text]()
+
+O comando abaixo irá inicializar o terraform realizando o download de todos os módulos necessários para o deploy da stack.
+```shell
+ terraform init 
+```
+
+O comando abaixo realiza todo o "mapeamento" do que será implementado, e caso tenha algum bug ou alguma configuração errada, você verá vários alertas em vermelho.
+```shell
+ terraform plan
+```
+
+O comando abaixo irá realizar o deploy da infraestrutura, eu estimo que demore cerca de 5/9 minutos.
+```shell
+ terraform apply -auto-approve
+```
+
+Após finalizar o deploy, você verá uma mensagem similar/igual a essa abaixo:
+![alt text]()
