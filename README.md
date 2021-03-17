@@ -18,10 +18,8 @@ A imagem abaixo representa como está arquitetada esta Stack de automação.
 ## Pré Requisitos
 
 A Stack está funcional seguindo os requisitos abaixo:
-* Chave API DigitalOcean
--- Criação da chave: https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token
-* Domínio apontado para o DNS da DigitalOcean
-** ns1.digitalocean.com , ns2.digitalocean.com , ns3.digitalocean.com
+* Chave API DigitalOcean : https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token
+* Domínio apontado para o DNS da DigitalOcean : ns1.digitalocean.com , ns2.digitalocean.com , ns3.digitalocean.com
 * Terraform na máquina local
 
 
@@ -57,7 +55,6 @@ No campo de chave SSH, configure o caminho da sua chave SSH e/ou o nome da chave
 - variable.tf
 
 No arquivo variable.tf você vai configurar a chave de API da DigitalOcean, e o domínio do site que você quer configurar.
-Tutorial criação API Key DigitalOcean: https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token
 
 
 ### Arquivos de Configuração Ansible
