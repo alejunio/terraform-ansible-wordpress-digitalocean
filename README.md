@@ -15,12 +15,15 @@ A imagem abaixo representa como está arquitetada esta Stack de automação.
 ![alt text]()
 
 
-## Requisitos
+## Pré Requisitos
 
 A Stack está funcional seguindo os requisitos abaixo:
 * Chave API DigitalOcean
+** Criação da chave: https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token
 * Domínio apontado para o DNS da DigitalOcean
+** ns1.digitalocean.com , ns2.digitalocean.com , ns3.digitalocean.com
 * Terraform na máquina local
+
 
 
 ## Preparando o Ambiente (Seu Computador)
