@@ -63,9 +63,16 @@ Você não pode esquecer de configurar também o Ansible. Ainda não encontrei u
 configurar também as variáveis do Ansible. Caso contrário terá problemas!
 
 No diretorio do Ansible temos todas as roles responsáveis pela configuração interna do servidor. 
-- /ansible/vars/vars.yaml 
+- /ansible/mysql
+- /ansible/nginx
+- /ansible/php
+- /ansible/ssl-certbot
+- /ansible/wordpress
 
 O playbook "chama" todas essas roles para que tudo seja configurado (PHP,MySQL,Nginx,SSL, etc). No entanto, você precisa ajustar variáveis importantes, veja abaixo as principais.
+
+Edite o arquivo de variaveis:
+- /ansible/vars/vars.yaml 
 
 ```shell
  db_user:  
