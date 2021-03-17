@@ -1,0 +1,33 @@
+---
+# tasks file for mysql
+
+- name: Instalando pre-requisitos
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - python-mysqldb
+  
+- name: Instalacao MySQL Server
+  apt:
+    name: mysql-server 
+    state: present
+
+- name: Criando DB
+  mysql_db: name={{ db_name }}  state=present 
+
+- name: Criando user 
+  mysql_user: name={{ db_user }} password={{ db_user_password }} priv='*.*:ALL' state=present
+
+#- name: Usuario Administrador - Root
+#  mysql_user: name=root host=localhost password={{mysql_root_password}}
+#  with_items:
+#    - 127.0.0.1
+#    - ::1
+#    - localhost
+
+
+
+
+
+

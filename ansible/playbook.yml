@@ -1,0 +1,13 @@
+- hosts: all 
+  become: true
+  roles:
+    - mysql
+    - nginx
+    - php
+    - wordpress
+    - ssl-certbot
+  
+  # Variaveis personalizaveis
+  # Definicao de dominio, email, usuarios 
+  vars_files:
+    - /home/ansible/vars/vars.yml
