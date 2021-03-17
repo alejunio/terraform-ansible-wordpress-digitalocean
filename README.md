@@ -64,6 +64,7 @@ configurar também as variáveis do Ansible. Caso contrário terá problemas!
 
 No diretorio do Ansible temos todas as roles responsáveis pela configuração interna do servidor. 
 - /ansible/vars/vars.yaml 
+
 O playbook "chama" todas essas roles para que tudo seja configurado (PHP,MySQL,Nginx,SSL, etc). No entanto, você precisa ajustar variáveis importantes, veja abaixo as principais.
 
 ```shell
