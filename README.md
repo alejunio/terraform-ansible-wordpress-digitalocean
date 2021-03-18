@@ -25,7 +25,7 @@ A Stack está funcional seguindo os requisitos abaixo:
 ns1.digitalocean.com \ ns2.digitalocean.com \ ns3.digitalocean.com
 
 
-## Preparando o Ambiente (Seu Computador)
+## Preparando o Ambiente (Seu Desktop)
 
 Para executar a Stack você vai precisar executar os passos abaixo. "Desconsidere caso já tenha feito algum passo".
 #### 1) Download do pacote Terraform
@@ -34,13 +34,13 @@ Faça o download do pacote referente ao sistema operacional que você utiliza.
 * Download: https://www.terraform.io/downloads.html
 
 
-#### 2) Download da Stack
+#### 2) Download do Repositório
 Você pode realizar o download da Stack através do link:
 
 * https://github.com/alejunio/terraform-ansible-wordpress-digitalocean/archive/main.zip
 
 
-## Configurações na Stack
+## Configurações para Deploy
 
 Após realizar o download do repositório, recomendo utilizar algum editor como o Notepad++, VSCode ou algum de sua preferência para configurar a Stack.
 
@@ -50,12 +50,12 @@ Você deve realizar configuracoes nos arquivos abaixo:
 
 - main.tf
 
-No campo de chave SSH, configure o caminho da sua chave SSH e/ou o nome da chave que você configurou. Recomendo inserir a chave no diretório (SSH).
+No campo de **chave SSH**, configure o caminho da sua chave SSH e/ou o nome da chave que você configurou. Recomendo inserir a chave no diretório **(SSH).**
 
 
 - variable.tf
 
-No arquivo variable.tf você vai configurar a chave de API da DigitalOcean, e o domínio do site que você quer configurar.
+No arquivo variable.tf você vai configurar a **chave de API da DigitalOcean**, e o **domínio** do site que você quer configurar.
 
 
 ### Arquivos de Configuração Ansible
@@ -117,20 +117,7 @@ A Stack está funcional, mas ainda está em desenvolvimento. Ideias e planos par
  - [x] PHP [ 7.2 ]
  - [x] MySQL [ 5.76 ]
  - [x] SSL Certbot Let's Encrypt
- - [ ] Seletor PHP
- - [ ] Seletor MySQL
- - [ ] Ioncube
- - [ ] Composer
- - [ ] Ferramentas de Segurança
- - [ ] Ferramenta para coleta de Logs 
- - [ ] Ferramenta para monitoramento do Servidor   
- - [ ] Backups remoto 
- - [ ] Criação de contas FTP
  - [ ] Secrets Ansible Vault
 
 * Terraform
  - [ ] Variaveis compartilhaveis com Ansible e vice versa
- - [ ] Seleção de Servidores
- - [ ] Seleção de Regiões
- - [ ] Load Balancing
- - [ ] Secrets Vault
