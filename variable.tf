@@ -1,17 +1,18 @@
 # Token de acesso via API - DIGITAL OCEAN
-variable "do_token" {
+variable "vultr_token" {
   description = "API KEY"
-  default     = "02bc640ba88cfe97c37838dfabd6575b66b4db0c4ac65376040e3e25ff31af4a"
-}
-
-# Token de acesso via API - CLOUDFLARE
-variable "cloudflare_api_key" {
-  description = "API KEY"
-  default     = "02bc640ba88cfe97c37838dfabd6575b66b4db0c4ac65376040e3e25ff31af4a"
+  default     = "sua-api-key"
 }
 
 # Habilitando ou Desabilitando Backups / True para habilitar
-variable "do_backups" {
+variable "vultr_backups" {
   description = "Backups"
   default     = "false"
 }
+
+# Dominio DNS
+variable "dns_domain" {
+  default     = "exemplo.com"
+}
+
+
