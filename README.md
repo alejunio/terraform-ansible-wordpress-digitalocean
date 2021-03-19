@@ -1,5 +1,7 @@
 # 🚀  Stack Automação VPS WordPress na DigitalOcean com Terraform e Ansible
 
+![alt text]()
+
 **Infraestrutura como código (IaC)** é uma realidade atualmente, e vem para ajudar a acelerar os processos na criação e configuração de ambientes de infraestrutura. Quando unimos o Terraform(automacao infra) com Ansible(automacao configuracoes), temos uma solução perfeita! Podemos criar ambientes de hospedagem de forma rápida e fácil. 
 
 
