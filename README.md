@@ -1,4 +1,4 @@
-# 🚀  Stack Automação VPS WordPress na DigitalOcean com Terraform e Ansible
+# 🚀  Automação Infraestrutura WordPress na DigitalOcean com Terraform e Ansible
 
 ![alt text](https://github.com/alejunio/terraform-ansible-wordpress-digitalocean/blob/main/img/automacao-wordpress-digitalocean.jpg)
 
