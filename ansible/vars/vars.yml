@@ -1,0 +1,13 @@
+# Var - MySQL
+db_user: user
+db_user_password: 654321
+db_name: db-default
+mysql_root_password: senharoot
+
+# Var - Nginx e Site
+dominio_site: exemplo.com.br
+diretorio_site: /var/www/{{ dominio_site }}/public_html
+email: exemplo@email.com
+
+# Var - SSL
+diretorio_ssl: /etc/letsencrypt/{{ dominio_site }}
